@@ -9,7 +9,7 @@ import Clientservice from '../Pages/Clientservice';
 import Awesome from '../Pages/Awesome';
 import Team from '../Pages/Team';
 import Latestnew from '../Pages/Latestnew';
-
+import Creative from '../Pages/Creative';
 export default class Content extends React.Component {
     render() {
         return (
@@ -23,6 +23,7 @@ export default class Content extends React.Component {
                 <Awesome/>
                 <Team/>
                 <Latestnew/>
+                <Creative/>
             </div>
         )
     }
